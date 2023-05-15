@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Jost", sans-serif;
+  background: #f3efe0;
+}
+.main {
+  width: 350px;
+  height: 730px;
+  background: #222222;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 20px 50px #000;
+}
+#chk {
+  display: none;
+}
+.signup {
+  padding-top: 50%;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+label {
+  color: #fff;
+  font-size: 1.5em;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+input {
+  width: 60%;
+  height: 20px;
+  background: #434242;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+button {
+  width: 60%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: #22a39f;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+button:hover {
+  background: #22a39f;
+}
+.login {
+  position: relative;
+  top: -370px;
+  height: 690px;
+  background: #fff;
+  border-radius: 80% / 10%;
+  transform: translateY(45px);
+  transition: 0.8s ease-in-out;
+}
+.login label {
+  color: #22a39f;
+  margin-top: 85px;
+  padding-top: 20px;
+}
+.signup label {
+  margin-top: 1%;
+}
+
+#chk:checked ~ .login {
+  transform: translateY(-500px);
+}
+#chk:checked ~ .signup label {
+  transform: translateY(-110px);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #22a39f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+textarea {
+  width: 60%;
+  height: 20px;
+  background: #434242;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+p {
+display: flex;
+justify-content: center;
+color: #000;
+margin: -17px;
+}
+
+.error{
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.invisible{
+  display: none;
+}

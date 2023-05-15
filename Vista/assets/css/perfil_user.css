@@ -1,0 +1,62 @@
+*{
+    font-family: 'Jost', sans-serif;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    justify-content: center;
+}
+
+
+fieldset{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    justify-content: center;
+}
+#contenedor{
+    margin-top: 70px;
+}
+
+input{
+    margin: 10px auto 20px;
+    width: 230px;
+    background: #434242;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+}
+
+input[type=submit]{
+    grid-column: 4/2;
+    height: 100%;
+}
+
+textarea{
+    background: #434242;
+    color: #fff;
+}
+
+label{
+    color: #22a39f;;
+}
+
+fieldset > h1{
+    justify-content:flex-start
+}
+
+i{
+    color: #fff;
+}
